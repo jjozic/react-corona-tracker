@@ -1,3 +1,24 @@
+# React Corona Tracker
+
+A COVID-19 tracker for the worldwide cases, which get updated daily.
+
+## Features:
+- show global statistics with a graph showing the development worldwide
+- selection for all countries worldwide affected by COVID-19
+  - for a selected country the data gets displayed in a bar chart
+- mobile friendly
+
+![Banner](https://github.com/jjozic/react-corona-tracker/blob/master/src/images/banner.png)
+
+
+This project uses the [COVID19 Mathdro API](https://covid.mathdro.id/api) to fetch its data.
+
+React libraries used include:
+- `axios` (to retrieve data from the api)
+- `material design`
+- `react-chartjs-2` (`chart.js` for React)
+- `react-countup` (for the count up animation)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -42,27 +63,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
